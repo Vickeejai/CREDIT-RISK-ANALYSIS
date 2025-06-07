@@ -61,18 +61,31 @@ Before diving into specific metrics, I explored the TDI dataset to look for patt
 
 **INSIGHTS**
 - Based on borrower repayment behaviour, 83.33% of the loans are fully paid, which is a great sign. It shows most borrowers are reliable and TDI’s lending process is working well. 13.83% of loans are charged off, the ones that were not repaid, and about 2.85% of loans are still current, which means they are in progress, but it is worth monitoring closely to spot any signs of future repayment issues.
+  
 - When looking at job length by income, it turns out that borrowers who have been in their jobs for 10+ years earn the most, bringing in a total income of $724.81 million. Interestingly, borrowers with shorter job lengths (like 1–5 years) sometimes earn more than those who have been at their jobs for 6, 7, 8, or even 9 years. This shows that longer time on the job doesn’t always mean higher income, something TDI should keep in mind when verifying employment details before approving loans.
+
 - On the loan purpose by interest rate side, the goal is to understand which loan types are costlier for borrowers and riskier for TDI, and it shows that the average interest rate overall is 12.05%, and that helps us compare how each loan category stacks up. Loans for Small Business (13.03%), Debt Consolidation (12.50%), and House loans (12.38%) carry interest rates above average, which could mean they come with more risk for borrowers and TDI.
+
 - On the safer side, Car loans have the lowest average rate at 10.59%, making them less risky for both the company and borrowers. Medical and personal loans are also relatively safe, sitting just under the average at around 11%.
+
 - When we look at why people are borrowing and how much they are taking, Debt Consolidation, Credit Card, and Home Improvement loans come out on top in terms of total loan amount. These categories involve big expenses, so borrowers usually take larger loans. But slicing the data by loan status shows that out of $232M in Debt Consolidation loans, about $36M has been charged off, which is a red flag. It looks like people borrow big to pay off multiple debts, but still struggle to repay, which proves the risk factor for this loan type.
+
 - Home Improvement loans are also large, probably due to renovations or repairs, but they don’t seem as risky. Small Business loans could go either way. If a business is struggling or just starting out, repayment becomes shaky, which increases risk.
+
 - On the Loan Issue Date by Loan Amount, January started slow with just $7,000 in loans. By February, there was an increase to $37,000, showing early signs of growth. From February to May, things stayed steady, Then between July and November, loan amounts skyrocketed to $232 million, with November alone hitting the peak. But just as fast as it rose, December dropped back down to $5,000.
+
 - When we look at how much people borrow based on their home status, those with mortgages are borrowing the most, about $219.32M. Renters come next with $185.77M and Homeowners borrow the least, just $29.60M. Since they already own their homes, they might not need as much financial support.
+
 - Based on how TDI checks borrower info before approving loans, Verified borrowers, those whose income, job, and credit info were manually confirmed through documents, got the biggest share: $196.96M. Not Verified borrowers got $139.69M. For these, TDI just trusted the info the borrower provided without doing any deep checks. Lastly, Source Verified borrowers, where TDI actually confirmed things directly (like calling up employers or banks), got the least: $99.09M, which is more reliable.
+
 - For how much people earn with how many credit lines they have, low to middle earners tend to have a lot of credit lines, even if their income isn’t all that high, which means they might have trouble keeping up with repayments. TDI should probably be extra careful here. Before handing out more credit, it’s worth checking if the borrower can really handle it financially.
+
 - Comparing a borrowers income and how much they’re borrowing, turns out, high, small, and middle-high earners are taking out the biggest loans. if someone has a low income but a high loan amount, their chances of default go up. TDI may want to dig deeper during evaluations to avoid lending more than a borrower can realistically handle.
+
 - Comparing loan amounts based on how long borrowers choose to repay, most people go for the 36-month term, with loans totaling $273.03M, compared to $162.72M for the 60-month option.
+
 - Based on regional view of demand, California leads big with $78.48M, followed by New York at $42.07M, and Texas at $31.24M. Clearly, these are hotspots for TDI’s loan activity. On the flip side, Maine ($9K) and Nebraska ($32K) show the lowest numbers, which might point to lower demand or smaller populations.
+
 - Analyzing with DTI ratios and income, Low DTI equals Lower Risk and High DTI equals Higher Risk. This means that, borrowers with Low DTI use a small part of their income to pay off debt, while borroers with High DTI ratio are already spending a large chunk of their income on debt payments, making them riskier to lend to.
 
 ## **RECOMMENDATIONS**
@@ -118,5 +131,5 @@ Before diving into specific metrics, I explored the TDI dataset to look for patt
 15. California, New York, and Texas are top-performing regions. Consider geo-targeted ads and partnership programs in these locations to expand market share.
     For low-demand states like Maine or Nebraska, explore smaller, community-focused campaigns with tailored benefits.
 
-In conclusion, TDI can improve its loan approval process by verifying borrower information more carefully and matching loan amounts to each borrower’s income and credit behavior. By focusing on popular loan terms like 36-month plans and expanding in high-demand regions, TDI can reduce risks, support more customers, and grow sustainabl
+In conclusion, TDI can improve its loan approval process by verifying borrower information more carefully and matching loan amounts to each borrower’s income and credit behavior. By focusing on popular loan terms like 36-month plans and expanding in high-demand regions, TDI can reduce risks, support more customers, and grow sustainably.
 
