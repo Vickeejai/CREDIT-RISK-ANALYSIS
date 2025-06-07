@@ -20,7 +20,7 @@ The goal of this project is to help The Data Immersed (TDI) better understand wh
 - Spot patterns around loan defaults to understand what puts a customer at risk, especially when it comes to income level and employment history.
 - See how interest rates affect repayment. Do higher rates mean higher risk, or is there more to the story?
 - Break down how loan amounts and purposes vary between different types of customers.
-- Check for regional trends in loan performance, are some areas doing better or worse than others, and why?
+- Check for regional trends in loan performance, are some areas doing better or worse than others.
 - Ultimately, find ways to make better loan decisions, reduce default rates, and improve profits without compromising customer satisfaction.
 
 ## **DATA CLEANING STEPS TAKEN**
@@ -59,7 +59,7 @@ Before diving into specific metrics, I explored the TDI dataset to look for patt
 - The average interest rate across all these loans is 12.05%, which is not too high and not too low.
 - When we look at the total payments made by borrowers who finished repaying, it adds up to $473.07M. Thus means that TDI has brought in more than it gave out.
 
-  **INSIGHTS**
+**INSIGHTS**
 - Based on borrower repayment behaviour, 83.33% of the loans are fully paid, which is a great sign. It shows most borrowers are reliable and TDI’s lending process is working well. 13.83% of loans are charged off, the ones that were not repaid, and about 2.85% of loans are still current, which means they are in progress, but it is worth monitoring closely to spot any signs of future repayment issues.
 - When looking at job length by income, it turns out that borrowers who have been in their jobs for 10+ years earn the most, bringing in a total income of $724.81 million. Interestingly, borrowers with shorter job lengths (like 1–5 years) sometimes earn more than those who have been at their jobs for 6, 7, 8, or even 9 years. This shows that longer time on the job doesn’t always mean higher income, something TDI should keep in mind when verifying employment details before approving loans.
 - On the loan purpose by interest rate side, the goal is to understand which loan types are costlier for borrowers and riskier for TDI, and it shows that the average interest rate overall is 12.05%, and that helps us compare how each loan category stacks up. Loans for Small Business (13.03%), Debt Consolidation (12.50%), and House loans (12.38%) carry interest rates above average, which could mean they come with more risk for borrowers and TDI.
